@@ -62,6 +62,7 @@ public class ServerEventRegistrar {
         vanillaEventBus.register(TimeServerEvents.class);
         vanillaEventBus.register(CustomBuildingServerEvents.class);
         vanillaEventBus.register(CommandsServerEvents.class);
+        vanillaEventBus.register(com.solegendary.reignofnether.commands.RtsDebug.class);
         vanillaEventBus.register(ScenarioServerEvents.class);
     }
 }
